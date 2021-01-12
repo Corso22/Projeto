@@ -46,7 +46,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff)
+    background-color: #ffffff;
     width: 100%;
     padding: 20px 10px;
     border: 1px solid #d3d3d3;
@@ -62,10 +62,10 @@ body{
 }
 
 .Instagram-Login{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
     background-color: #0095f6;
-    padding: 10px 100px;
+    padding: 10px 130px;
     border-radius: 4px;
     color:white;
 }
@@ -87,16 +87,17 @@ body{
 input{
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align:left;
     flex-direction: column;
     display: flex;
     width: 300px;
-    height: 30px;
+    height: 40px;
     border-radius: 2.5px;
-    font-family: serif;
+    font-family: 'Segoe UI';
     border-color: lightgray;
     opacity: 80%;
     border-width: thin;
+    font-size: 11px;
 }
 
 .download{
@@ -121,4 +122,37 @@ input{
 }
 .app-download:nth-child(2){
     background-image: url('./Img/get-it-on-google-play-badge.png');
+
+}
+.divider {
+	width:310px;
+    text-align:center;
+    height: 1px;
+}
+
+.divider hr {
+	margin-left:auto;
+	margin-right:auto;
+    width:45%;
+    position: relative;
+    top: .45em;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+	float:right;
+}
+.Facebook{
+    margin-top: 40px;
+}
+.forgot{
+    font-size: 12px;
+    color: #385185;
+}
+#entrar{
+    color:#385185;
+    margin-top: auto;
 }
